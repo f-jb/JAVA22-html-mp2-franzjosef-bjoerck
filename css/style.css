@@ -21,8 +21,8 @@ footer {
 	flex-flow: row wrap;
 	/* border: red 2px solid; */
 	bottom: 0;
-	position: absolute;
 	width: 100%;
+	min-height: 5rem;
 	justify-content: space-evenly;
 	/* padding-left: 1rem; */
 	/* padding-right: 1rem; */
@@ -67,4 +67,14 @@ img{
 }
 .emoji{
 	font-size: 50px;
+}
+
+.card{
+	display: flex;
+	height: 300;
+	width: 300px;
+}
+
+main{
+	min-height: calc(100vh - 12rem);
 }
